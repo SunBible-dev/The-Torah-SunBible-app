@@ -1,0 +1,61 @@
+{
+  "build": {
+    "appId": "The.Torah.SunBible.app",
+    "productName": "The Torah SunBible app"
+  },
+  "name": "the-torah-sunbible-app",
+  "version": "0.0.1-beta-test-1",
+  "description": "SunBible: A beautiful way to read, study, and memorize the Bible. KJV",
+  "main": "main.js",
+  "homepage": "https://the-sunshining.github.io/SunBible/Torah/TheTorah.html",
+  "license": "MIT",
+  "maintainers": [
+    "NCR",
+    "The SunShining"
+  ],
+  "author": "The SunShining <thesunshining@gmail.com> (www.thesunshining.weebly.com)",
+  "keywords": [
+    "Bible",
+    "SunBible"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SunBible-dev/The-Torah-SunBible-app.git"
+  },
+  "devDependencies": {
+    "electron": "^11.3.0",
+    "electron-builder": "^22.10.5"
+  },
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+
+    "deb": "electron-builder --linux deb",
+    "deb:x64": "electron-builder --linux deb:x64",
+    "deb:arm64": "electron-builder --linux deb:arm64",
+
+    "rpm": "electron-builder --linux rpm",
+
+    "AppImage": "electron-builder --linux AppImage",
+
+    "snap": "electron-builder --linux snap",
+    "snap:x64": "electron-builder --linux snap:x64",
+    "snap:arm64": "electron-builder --linux snap:arm64",
+
+    "apk": "electron-builder --linux apk",
+
+    "appx": "electron-builder --windows appx",
+    "nsis": "electron-builder --win nsis",
+    "nsis:x64": "electron-builder --win nsis:x64",
+    "nsis:arm64": "electron-builder --win nsis::arm64",
+    "nsis:ia32": "electron-builder --win nsis:ia32",
+    "nsis-web": "electron-builder --win nsis-web",
+
+    "dmg": "electron-builder --mac dmg",
+    "dmg:arm64": "electron-builder --mac dmg:arm64"
+  },
+  "dependencies": {
+    "electron-context-menu": "^2.5.0"
+  }
+}
