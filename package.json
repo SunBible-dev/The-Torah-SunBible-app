@@ -5,7 +5,7 @@
   },
   "name": "the-torah-sunbible-app",
   "version": "0.0.1-beta-test-1",
-  "description": "SunBible: A beautiful way to read, study, and memorize the Bible. KJV",
+  "description": "The Torah - a SunBible desktop app made with electron.",
   "main": "main.js",
   "homepage": "https://the-sunshining.github.io/SunBible/Torah/TheTorah.html",
   "license": "MIT",
